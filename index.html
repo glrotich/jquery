@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQuery UI</title>
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="ok.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="jquery-ui.css/jquery-ui.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <h1>jQuery UI-Survey</h1>
+        <h3>General Information</h3>
+        <div>
+            Name: <input type="text" id="name"> Date: <input type="date" id="date">
+        </div>
+        <div>
+            <h3>Are you enrolled as an undergarduate or a graduate?</h3>
+        </div>
+        <div>
+            <ol id="selectable" class="ui-selected">
+                <p>
+                    <li class="ui-widget-content" title="taking 6.813, doesn't have to do RS assignments">
+                        Undergraduate
+                    </li>
+                </p>
+
+                <p>
+                    <li class="ui-widget-content" title="taking 6.813, doesn't have to do RS assignments" ui-selectee>
+                        Graduate </li>
+                </p>
+            </ol>
+        </div>
+        <div>
+            <h4>
+                Rank the colors listed from your most favorite (1) to your least favorite (5). Be sure to only use each ranking once
+            </h4>
+        </div>
+        <div>
+            <ul id="sortable">
+
+                <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>#ff0000</li>
+
+                <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>#0000ff</li>
+                <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>#ff00b3</li>
+                <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>#ded447</li>
+                <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>#125e18</li>
+            </ul>
+        </div>
+
+
+
+
+
+        <script src="http://code.jquery.com/jquery-3.5.0.js" integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc=" crossorigin="anonymous"></script>
+        <script src="http://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+
+    </div>
+</body>
+
+</html>
